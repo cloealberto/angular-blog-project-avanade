@@ -1,0 +1,14 @@
+/* Estilo do card pequeno */
+.small-card {
+  width: 60%;
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Estilo da imagem do card */
+.small-card img {
+  width: 30%;
+  border-radius: 10px;
+}

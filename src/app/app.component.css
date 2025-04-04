@@ -1,0 +1,13 @@
+/* Estilo da área de conteúdo */
+.content {
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+}
+
+/* Estilo da área de cards pequenos */
+.side-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

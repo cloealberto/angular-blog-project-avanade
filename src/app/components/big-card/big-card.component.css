@@ -1,0 +1,14 @@
+/* Estilo do card grande */
+.big-card {
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* Estilo da imagem do card */
+.big-card img {
+  width: 100%;
+  border-radius: 10px;
+}
