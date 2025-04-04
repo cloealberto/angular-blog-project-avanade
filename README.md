@@ -1,59 +1,44 @@
-# AngularDioBlog
+# 🎸 Rock Shows Brasil - Blog sobre Shows de Rock no Brasil 🤘  
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+Bem-vindo ao **Rock Shows Brasil**, um blog desenvolvido com Angular, Projeto Decola Tech Avanade 2025, em parceria com a Dio, para compartilhar informações sobre shows de rock que acontecem no Brasil! Se você curte bandas de rock, esse é o lugar certo para acompanhar datas, novidades e reviews de eventos! 🎶🔥  
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Tecnologias Utilizadas  
 
-```bash
-ng serve
-```
+Este projeto foi desenvolvido com as seguintes tecnologias:  
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- 🌐 **Angular** - Framework front-end moderno e performático  
+- 🎨 **CSS** - Estilização responsiva e personalizada  
+- 🎭 **Componentização** - Cada parte do blog é modular e reutilizável  
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📸 Layout  
 
-```bash
-ng generate component component-name
-```
+O blog segue este layout baseado em um design do Dribbble:  
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+![Blog Layout](blogideia.png)  
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 📁 Estrutura do Projeto  
 
-To build the project run:
+A estrutura do projeto segue uma organização de componentes para facilitar a manutenção e escalabilidade:  
 
 ```bash
-ng build
-```
+angular-dio-blog/
+│-- src/
+│   │-- app/
+│   │   │-- components/
+│   │   │   │-- menu-bar/        # Barra de navegação
+│   │   │   │-- menu-title/      # Título do blog
+│   │   │   │-- big-card/        # Card grande em destaque
+│   │   │   │-- small-card/      # Cards pequenos de artigos
+│   │   │-- app.component.ts     # Componente raiz
+│   │   │-- app.module.ts        # Configuração dos módulos
+│   │-- assets/
+│   │-- index.html
+│   │-- styles.css
+│-- README.md
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
